@@ -9,29 +9,14 @@
 /* Begin PBXBuildFile section */
 		701AC71A18EE0C12005D748D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701AC71918EE0C12005D748D /* Foundation.framework */; };
 		701AC71D18EE0C12005D748D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 701AC71C18EE0C12005D748D /* main.m */; };
-		701AC72118EE0C12005D748D /* codingChallenge2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 701AC72018EE0C12005D748D /* codingChallenge2.1 */; };
 		701AC72918EE17FF005D748D /* RLCodingChallengeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 701AC72818EE17FF005D748D /* RLCodingChallengeModel.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		701AC71418EE0C12005D748D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-				701AC72118EE0C12005D748D /* codingChallenge2.1 in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		701AC71618EE0C12005D748D /* compute */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = compute; sourceTree = BUILT_PRODUCTS_DIR; };
 		701AC71918EE0C12005D748D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		701AC71C18EE0C12005D748D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = codingChallenge2/main.m; sourceTree = "<group>"; };
 		701AC71F18EE0C12005D748D /* codingChallenge2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "codingChallenge2-Prefix.pch"; sourceTree = "<group>"; };
-		701AC72018EE0C12005D748D /* codingChallenge2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = codingChallenge2.1; sourceTree = "<group>"; };
 		701AC72718EE17FF005D748D /* RLCodingChallengeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RLCodingChallengeModel.h; path = codingChallenge2/RLCodingChallengeModel.h; sourceTree = "<group>"; };
 		701AC72818EE17FF005D748D /* RLCodingChallengeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RLCodingChallengeModel.m; path = codingChallenge2/RLCodingChallengeModel.m; sourceTree = "<group>"; };
 		701AC72A18EE1A88005D748D /* test.prn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.prn; path = codingChallenge2/test.prn; sourceTree = "<group>"; };
@@ -83,7 +68,6 @@
 		701AC71E18EE0C12005D748D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				701AC72018EE0C12005D748D /* codingChallenge2.1 */,
 				701AC71F18EE0C12005D748D /* codingChallenge2-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -99,7 +83,6 @@
 			buildPhases = (
 				701AC71218EE0C12005D748D /* Sources */,
 				701AC71318EE0C12005D748D /* Frameworks */,
-				701AC71418EE0C12005D748D /* CopyFiles */,
 			);
 			buildRules = (
 			);
